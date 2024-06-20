@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bitcoinTrackerFragment">
+
+    <fragment
+        android:id="@+id/bitcoinTrackerFragment"
+        android:name="dev.zieger.bitcointracker.app.ui.BitcoinTrackerFragment"
+        android:label="@string/bitcoin_tracker_fragment_label"/>
+</navigation>
